@@ -4,10 +4,10 @@ using namespace std;
 
 int main()
 {
-    Airplane plane1;
+    Plane plane1;
     plane1.showInfo();
 
-    Airplane plane2("PS123", "Kyiv", "London", "Boeing 737", 180, 100);
+    Plane plane2("PS123", "Kyiv", "London", "Boeing 737", 180, 100);
     plane2.showInfo();
 
     plane1.setFlightNumber("AA987");
