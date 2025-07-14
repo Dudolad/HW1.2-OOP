@@ -38,7 +38,5 @@ public:
 
 	bool sellTicket(int count);
 	bool returnTicket(int count);
-
-
 };
 
